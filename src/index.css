@@ -1,0 +1,66 @@
+/* Fondo total y reseteo */
+html, body {
+  margin: 0;
+  height: 100%;
+  background-color: #3d38be;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+/* Contenedor principal centrado */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  gap: 1rem;
+}
+
+/* Logo */
+.logo {
+  width: 160px;
+  max-width: 200px;  /* nunca más grande */
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  margin-bottom: 1rem;
+  object-fit: contain;
+}
+
+/* Título */
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Subtítulo */
+p {
+  font-size: 1rem;
+  opacity: 0.95;
+  line-height: 1.5;
+  max-width: 500px;
+  color: #f0f0f0; /* Contraste con fondo azul */
+}
+
+/* Íconos */
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  font-size: 2rem;
+  margin-top: 1.5rem;
+  z-index: 10;
+  position: relative;
+}
+
+.icons a {
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.icons a:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+}
