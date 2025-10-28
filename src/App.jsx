@@ -3,6 +3,7 @@ import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import Logo from "../public/LogoVladisystems.png"; // ajusta la ruta si es necesario
 import "./index.css";
 
+
 export default function App() {
   return (
     <div className="app-container">
@@ -26,3 +27,13 @@ export default function App() {
     </div>
   );
 }
+
+
+
+
+
+
+
+
+
+
