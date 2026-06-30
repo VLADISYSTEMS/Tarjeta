@@ -13,9 +13,11 @@ export default function App() {
       border: "none",
       margin: 0,
       padding: 0,
-    }}
-  />
-);
+      }}
+    />
+  );
+}
+
 
 
 
